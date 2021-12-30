@@ -15,35 +15,31 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <section class="block container block-domain">
-      <header class="block__header">
-        <h2>Starting at $9 per month</h2>
+    <article class="grid grid--1x2 feauter">
+      <div>
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+            <use xlink:href="images/sprite.svg#settings"></use>
+          </svg>
+        </span>
+        <h3 class="feature__heading">Super Easy to Use</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          veniam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet
+          nobis voluptate dolores, excepturi, esse eum distinctio laboriosam non
+          nihil consequuntur odio saepe ducimus repellendus!
         </p>
-      </header>
-      <div class="input-group">
-        <input
-          type="text"
-          class="input"
-          placeholder="Enter domain name here..."
-        />
-        <button class="btn btn--accent">
-          <svg class="icon icon--white">
-            <use xlink:href="images/sprite.svg#search"></use></svg
-          >Search
-        </button>
+        <a href="#" class="link-arrow">Learn More</a>
       </div>
-      <ul class="list block-domain__prices">
-        <li><span class="badge badge--secondary">.com $9</span></li>
-        <li>.sg $7</li>
-        <li>.space $12</li>
-        <li>.info $14</li>
-        <li>.net $16</li>
-        <li>.xyz $10</li>
-      </ul>
-    </section>
+    </article>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
+      <source
+        type="image/jpg"
+        srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x" />
+      <img src="/images/easy@2x.jpg" alt=""
+    /></picture>
     <script src="/js/main.js">
       Hosting
     </script>
